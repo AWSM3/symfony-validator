@@ -1,0 +1,38 @@
+{
+    "name": "awsm3/symfony-validator",
+    "type": "library",
+    "description": "Валидация реквестов (вообще, данных, посредством форм Symfony) для Symfony",
+    "keywords": ["symfony", "request", "validator"],
+    "homepage": "https://github.com/AWSM3/symfony-validator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry",
+            "email": "dmitry2500u@bk.ru",
+            "homepage": "https://github.com/AWSM3/symfony-validator",
+            "role": "Chief developer"
+        }
+    ],
+    "require": {
+        "php": "~7.0",
+        "doctrine/orm": "^2.6",
+        "symfony/dependency-injection": "^4.0",
+        "symfony/form": "^4.0",
+        "symfony/http-foundation": "^4.0",
+        "symfony/serializer": "^4.0",
+        "symfony/validator": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Awsm3\\Symfony\\Validator\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Awsm3\\Symfony\\Validator\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
